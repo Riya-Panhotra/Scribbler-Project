@@ -1,0 +1,198 @@
+
+    body {
+        background-color: #ffa500; 
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+       }
+       .vertical-center {
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+      }
+      .q
+      {
+        padding:9px;
+        margin-bottom: 50px;
+        font-weight:bolder;
+        background-color:#cfb53b;
+        border: 1px white;
+      }
+      a
+      { color: inherit; 
+        text-decoration:none;
+      } 
+      .rectangle {
+        height: 150px;
+        width: 440px;
+           border: 2px solid white;
+           background-color:#e8e8e8;
+      border-radius: 20px;
+      overflow:hidden;
+      overflow:hidden;
+      }
+      .rec {
+        height: 120px;
+        width: 400px;
+        border: 2px solid white;
+        overflow:hidden;
+      }
+      .ashu0
+      {
+        width:80px; 
+        height:150px; 
+        float:left;  
+        background:white;
+        border-radius:20px 0px 0px 20px;
+        display: flex;
+          justify-content: center;
+          align-items: center;
+          overflow:hidden;
+        background-color:white;
+      }
+      .r{
+         text-align: center;
+          display: inline-block;
+   
+      }
+      .cross
+      {
+        float:right; 
+        margin-right:20px;
+        cursor: pointer;
+      }
+      .u{
+        float:right;
+         margin-right:12px;
+
+      }
+      .ashu1
+      {
+      background-color:#e8e8e8;
+      border-radius:0px 20px 20px 0px;
+      }
+      .line-clamp {
+      margin-left: 30px;
+       display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;  
+         text-overflow: ellipsis;
+         overflow: hidden;
+         padding:2px
+      }
+      .par
+      {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      .par .rectangle
+      {
+        margin: 10px 20px 10px 20px;
+        width:40%;
+        border-radius: 20px;
+        display: flex;
+        background-color: white;
+        overflow: hidden;
+      }
+      .par .rectangle .blog_post_content
+      {
+        background-color: #dddddd;
+        padding: 9px 20px;
+      }
+      .par .rectangle .blog_post_content p
+      {
+        font-family: 'Courgette',cursive;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 0px 0px;
+        padding: 0px;
+        height: 60px;
+
+      }
+      .par .rectangle .blog_post_content h3
+      {
+        font-family: 'Reggae One', cursive;
+      }
+      .par .rectangle  h1
+      {
+        font-family: 'Reggae One', cursive;
+        font-size: 20px;
+        display: flex;
+          justify-content: center;
+          align-items: center;
+          overflow:hidden;
+          width: 59%;
+        background-color:white;
+      }
+      
+      .modal3{
+        display:none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+      .modal-content3{
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 300px;
+        height:60px;
+        font-family:  'Oswald', sans-serif;
+      }
+ 
+       .modal-content3 p{
+              display: block;
+              font-family: 'Oswald', sans-serif;
+              text-align: center;
+              padding:0px;
+              margin:0px;
+            }
+            #Yes
+            {
+                width: 90px;
+                margin-top: 10px;
+                height: 30px;
+                background-color: red;
+                color:white;
+                border: none;
+            }
+            #No
+            {
+              width: 90px;
+              margin-top: 10px;
+              height: 30px;
+              background-color:green;
+              float:right;
+              color:white;
+              border: none;
+            }
+            #redirect{
+              color: blue;
+              cursor: pointer;
+           }
+           #myBtn13
+           {
+             font-size: 15px;
+             font-weight: 500;
+             border: none;
+             color: blue;
+             background-color: white;
+             cursor: pointer;
+           }
+           .cross:hover
+           {
+             color:red;
+
+           }
+      
+      

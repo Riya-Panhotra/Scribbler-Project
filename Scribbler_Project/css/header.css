@@ -1,0 +1,179 @@
+.logo-title{
+  font-family: 'Satisfy', cursive;
+  font-size: 35px;
+  color: #112fb4;
+  text-decoration: none;
+  margin-left: 10px;
+
+}
+.middleText{
+  color: black;
+  font-family: 'Marck Script', cursive;
+  margin-left: 10px;
+}
+   .modal-content1 p{
+        display: block;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        padding:0px;
+        margin:0px;
+      }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Marck Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Marck Script'), local('MarckScript-Regular'), url(https://fonts.gstatic.com/s/marckscript/v8/nwpTtK2oNgBA3Or78gapdwuyzCg_WMM.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Marck Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Marck Script'), local('MarckScript-Regular'), url(https://fonts.gstatic.com/s/marckscript/v8/nwpTtK2oNgBA3Or78gapdwuyxig_WMM.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Marck Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Marck Script'), local('MarckScript-Regular'), url(https://fonts.gstatic.com/s/marckscript/v8/nwpTtK2oNgBA3Or78gapdwuyyCg_.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Satisfy';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Satisfy Regular'), local('Satisfy-Regular'), url(https://fonts.gstatic.com/s/satisfy/v8/rP2Hp2yn6lkG50LoCZOIHQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+.ashu
+{
+float:right;
+}
+#myBtn
+{
+background-color:#0000ff;
+color:white;
+width:80px;
+padding:7px;
+border:none;
+}
+#myBtn1
+{
+background-color:#0000ff;
+color:white;
+width:80px;
+padding:7px;
+border:none;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal1{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 320px;
+  height:480px;
+  font-family:  'Oswald', sans-serif;
+}
+.modal-content1{
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 320px;
+  height:340px;
+  font-family:  'Oswald', sans-serif;
+}
+
+.value
+{
+  width:320px;
+  height:35px;
+}
+label
+{
+  font-family: 'Oswald', sans-serif;
+}
+
+.modal-content h1{
+  text-align: center;
+  padding:0px;
+  margin-bottom: 3px;
+
+}
+.modal-content1 h1{
+  text-align: center;
+  padding:0px;
+  margin-bottom: 3px;
+}
+
+
+label{
+  font-weight:500;
+}
+input{
+  width:300px;
+  height: 22px;
+  font-family: 'Raleway', sans-serif;
+}
+.value{
+  background-color: #5eb762;
+  border:#5eb762 ;
+  color: white;
+  font-weight: bolder;
+}
+.k
+{
+  background-color: #f1f1f1;
+  border: #f1f1f1;
+  padding:9px;
+}
+
+.close {
+
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+

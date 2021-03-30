@@ -1,0 +1,81 @@
+.blogTite {
+    font-size: 150%;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.Author {
+    padding: 0px 0px 0px 10px;
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+    display: flex;
+	justify-content: space-between;
+}
+#edit
+{
+    display: flex;
+	justify-content: space-around;
+	text-decoration: none;
+	color: white;
+	font-family: serif;
+	font-size: 19px;
+	border: 1px solid pink;
+	height: 30px;
+	width: 75px;
+	background-color: deeppink;
+	text-align: center;
+	padding-top: 6px;
+}
+.desc
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.blogContent
+{
+padding-left: 30px;
+padding-right: 30px;
+}
+#commentBox button
+{
+	height: 35px;
+	width: 95px;
+	margin-top: 5px;
+	background-color: deeppink;
+	border: 0px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+#myBtn13
+{
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  color: blue;
+  background-color: white;
+  cursor: pointer;
+}
+ #titleArea
+{
+    display: none;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    border:1px solid pink;
+    width: 247px;
+    font-size: 23.5px
+    
+}
+textarea
+{
+    border-color: pink; 
+    font-size: 100%;
+    font-family: 'Abel', sans-serif;
+}
+#textarea
+{
+    border-color: pink; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+}
+
+
